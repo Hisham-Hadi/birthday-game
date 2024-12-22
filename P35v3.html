@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body class="pastel-pink">
+
+    <section class="hero">
+        <h1 class="rouge-script-regular">a birthday surprise for Safwana</h1>
+        <p>Happy Birthday!</p>
+    </section>
+
+    <section class="my-box">
+        <h2>Question 4</h2>
+        <p class="sour-gummy-regular">
+            Some science facts in this question
+        </p>
+        <p class="sour-gummy-regular">
+            The english calendar repeats every 28 years, meaning the same dates become the same days of the week. But some years can repeat 
+            more frequently than 28 years. Do you know when was the first time the 2002 calendar repeated?
+        </p>
+        <p class="sour-gummy-regular">
+            You were born on a Monday, so the answer is the first year that you celebrated your birthday on a Monday. The next time this will
+            happen is in 2030
+        </p>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="answer" placeholder="Enter your answer">
+        </div>
+        <div class="text-center">
+            <button id="checkBtn" class="btn btn-success">Check</button>
+            <a href="yVMeR.html"><button id="nextBtn" class="btn btn-primary" disabled>Next</button></a>
+        </div>
+        <p id="result"></p>
+    </section>
+
+    <section class="my-box">
+        <h2>Ardra says</h2>
+        <p class="sour-gummy-regular">
+            Happy Birthday, Safwana!
+        </p>
+        <p class="sour-gummy-regular">
+            Wishing you a fantastic year ahead filled with the same joy your lovely smile brings to everyone around you. 
+            Your positivity and grace in handling challenges are truly inspiring. May you be surrounded by all the love, joy 
+            and warmth you share so effortlessly!
+        </p>
+    </section>
+
+    <div class="confetti-container" id="confetti"></div> 
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@latest"></script> 
+    <audio id="correctSound" src="sounds/correct.mp3"></audio> 
+    <audio id="incorrectSound" src="sounds/incorrect.mp3"></audio> 
+    <script src="scripts/qn4.js"></script>
+</body>
+</html>

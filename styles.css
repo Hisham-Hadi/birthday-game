@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #FDEEF4; /* Pastel Pink Background */
+}
+
+.pastel-pink {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #FDEEF4; /* Pastel Pink Background */
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #f0f0f0; /* Light Grey Background */
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Instructions Section Styles */
+.my-box {
+    background-color: #fff; /* White Background */
+    padding: 3rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.instructions h2 {
+    margin-bottom: 1rem;
+}
+
+.instructions p {
+    line-height: 1.6;
+}
+
+.rouge-script-regular {
+    font-family: "Rouge Script", serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+.sour-gummy-regular {
+  font-family: "Sour Gummy", serif;
+  font-size: 1.1rem;
+  /*font-optical-sizing: auto;*/
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.amiri-regular {
+    font-family: "Amiri", serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+}
+
+.chilanka-regular {
+    font-family: "Chilanka", serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-style: normal;
+}  
+  
+
+/* Quiz Section Styles */
+
+.quiz h2 {
+    margin-bottom: 1rem;
+}
+
+/* Button Styles */
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 1rem;
+    min-width: 100px;
+}
+
+#nextBtn[disabled] {
+    background-color: #ccc; /* Grey for disabled button */
+}
+
+  
+@media (max-width: 600px) { 
+    /* For screens with a minimum width of 768px (medium devices and larger) */
+    .my-box {
+      width: 90%; 
+    }
+}
+  
+@media (min-width: 800px) { 
+    /* For screens with a minimum width of 992px (large devices) */
+    .my-box {
+      width: 800px; 
+    }
+}
+
+.confetti-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; 
+    display: none; 
+}
+
+.image {
+    width: 80%;
+}

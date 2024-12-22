@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonus Question</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body class="pastel-pink">
+
+    <section class="hero">
+        <h1 class="rouge-script-regular">a birthday surprise for Safwana</h1>
+        <p>Happy Birthday!</p>
+    </section>
+
+    <section class="my-box">
+        <h2>Wait! Bonus Question!</h2>
+        <p class="sour-gummy-regular">
+            Image round 😜
+        </p>
+        <p class="sour-gummy-regular">
+            Guess the name of the sports team from the images below. Hint-1: calling this a sports team is maybe an exaggertion. Hint-2: you were a member
+            of this team at one point
+        </p>
+        <img src="images/img1.jpg" class="image">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="answer" placeholder="Enter your answer">
+        </div>
+        <div class="text-center">
+            <button id="checkBtn" class="btn btn-success">Check</button>
+            <a href="end.html"><button id="nextBtn" class="btn btn-primary" disabled>Finish</button></a>
+        </div>
+        <p id="result"></p>
+    </section>
+
+    <section class="my-box">
+        <h2>From Anand</h2>
+        <p class="sour-gummy-regular">(Instead of a birthday wish, Anand decided to give you something else)</p>
+        <a href="https://drive.google.com/file/d/1KixZLB3qJVkZaVQxtLgOdsR-3KkjfByz/view?usp=sharing" target="_blank"><button class="btn">What is it??</button></a>
+    </section>
+
+    <div class="confetti-container" id="confetti"></div> 
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@latest"></script> 
+    <audio id="correctSound" src="sounds/correct.mp3"></audio> 
+    <audio id="incorrectSound" src="sounds/incorrect.mp3"></audio> 
+    <script src="scripts/bonus.js"></script>
+</body>
+</html>
